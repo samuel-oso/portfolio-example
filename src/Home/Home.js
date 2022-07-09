@@ -5,6 +5,7 @@ import flower from "../Assets/flower.svg";
 import another from "../Assets/another.svg";
 import arrow from "../Assets/arrow.svg";
 import { Link } from "react-router-dom";
+import GetInTouch from "../GetInTouch/GetInTouch";
 
 function Home() {
   return (
@@ -132,20 +133,6 @@ function Home() {
             </p>
             <p>___</p>
           </div>
-          {/* <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">Illustrator</h1>
-            <p className="skill-set-box-p">
-              I use to make creative svgs and illustrations for websites
-            </p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">Sass</h1>
-            <p className="skill-set-box-p">
-              I prefer this also instead of CSS because of advance functionality
-            </p>
-            <p>___</p>
-          </div> */}
         </div>
         <div className="project-and-work">
           <h1>
@@ -153,7 +140,10 @@ function Home() {
               My Projects and Works <img src={arrow} />
             </Link>
           </h1>
+          <br />
+          <p>Click me!</p>
         </div>
+        <GetInTouch />
       </div>
     </div>
   );
