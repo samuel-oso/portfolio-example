@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import ScrollToTop from "./ScrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <div className="noise"></div>
         <div className="App">
+          <ScrollToTop />
           <Switch>
             <Route path="/" exact>
               <Home />
